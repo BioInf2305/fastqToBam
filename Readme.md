@@ -3,7 +3,8 @@
 fastqToBam is a nextflow-based pipeline which combines multiple open-source tools to generate the final alignent starting from the paired-end Illumina sequences (Phred scale encoded using ASCII 33 to 93). It filters the raw fastq files (using sickle or trimmomatic), obtain the qualitative statistics of the sequences (using fastqc), align the filtered fastq files to the reference (using bwa), and remove the duplicates (using picard). The pipeline can be run smoothly on LRZ linux HPC. Further details are provided below: 
 
 ## Requirements:
-Nextflow (version 21.10.0 or higher, https://www.nextflow.io/)  Conda (tested on 4.12.0, https://docs.conda.io/projects/conda/en/latest/index.html)
+Nextflow (version 21.10.0 or higher, https://www.nextflow.io/)  
+Conda (tested on 4.12.0, https://docs.conda.io/projects/conda/en/latest/index.html)
 
 ## The pipeline in brief:
 
